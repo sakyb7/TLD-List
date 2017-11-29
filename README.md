@@ -12,3 +12,6 @@ This list is based entierly on the entries on the [List of Internet top-level do
 5) A TLD list popup should open.
 6) Copy the various parts of the list into the appropriate list file (overwriting whatever is there).
 7) Commit and push your changes.
+
+## LICENSE
+This is licensed under the terms of the Creative Commons Attribution-ShareAlike 3.0 Unported license.

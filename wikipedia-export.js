@@ -1,15 +1,18 @@
-// This file is part of the TLD List project, which can be found here:
-// https://github.com/jdgregson/TLD-List
-//
-// It facilitates the easy export of the TLD list from here:
-// https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains
+/**
+ * This file is part of the TLD List project, which can be found here:
+ * https://github.com/jdgregson/TLD-List
+ *
+ * It facilitates the easy export of the TLD list from here:
+ * https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains
+ *
+ */
 
 function getTLDlist() {
     let tlds = [];
     let tds = document.querySelectorAll('td');
     for(let i=0; i<tds.length; i++) {
         let tdText = tds[i].innerText;
-        if(tdText[0]==='.' && tdText.indexOf(' ')<0 && tlds.indexOf(tdText)<1) {
+        if(tdText[0]==='.' && tdText.indexOf(' ')<0 && tlds.indexOf(tdText)<0) {
             tlds.push(tdText);
         }
     }

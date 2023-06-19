@@ -13,6 +13,9 @@ This list is based entierly on the entries on the [List of Internet top-level do
 6) Copy the various parts of the list into the appropriate list file (overwriting whatever is there).
 7) Commit and push your changes.
 
+## Common top level domain
+Common Top Level domains are the combination on Popular Domains, Common Domains and Country Domains
+
 ## Country top level domain
 Url: [List of Country Top Level Domains](https://en.wikipedia.org/wiki/Country_code_top-level_domain#Lists)
 

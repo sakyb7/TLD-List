@@ -37,10 +37,10 @@ function openPopup(content) {
 }
 
 openPopup(
-    '-------- newline-separated-tlds.txt --------\n' +
+    '-------- all-TLDs-newline-separated.txt --------\n' +
     getTLDlist().join('\n') +
-    '\n\n\n\n-------- comma-separated-tlds.txt --------\n' +
+    '\n\n\n\n-------- all-TLDs-comma-separated.txt --------\n' +
     getTLDlist().join(',') +
-    '\n\n\n\n-------- pipe-separated-tlds.txt --------\n' +
+    '\n\n\n\n-------- all-TLDs-pip-separated.txt --------\n' +
     getTLDlist().join('|')
 );
